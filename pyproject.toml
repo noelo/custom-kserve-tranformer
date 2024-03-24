@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "custom-kserve-tranformer"
+version = "0.1.0"
+description = ""
+authors = ["Noel O'Connor <noel.oconnor@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+kserve = "^0.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
